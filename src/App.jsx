@@ -94,7 +94,7 @@ function App() {
 
   return (
     <div>
-      <h1>Kart Eşleştirme Oyunu</h1>
+      <h1 style={{ fontStyle: 'italic', fontSize: 28 }}>Kart Eşleştirme Oyunu</h1>
       <div style={{ marginBottom: 16, fontSize: 20 }}>Puan: {score}</div>
       <div style={{
         display: 'grid',
@@ -114,9 +114,9 @@ function App() {
                 width: 100,
                 height: 140,
                 fontSize: 24,
-                background: isOpen ? '#fff' : '#f5f5f5',
+                background: 'rgba(235,220,255,0.85)',
                 color: isOpen ? '#222' : '#b0b0b0',
-                border: 'none',
+                border: '2px solid #b48be3',
                 borderRadius: 8,
                 cursor: isOpen ? 'default' : 'pointer',
                 transition: 'background 0.3s',
