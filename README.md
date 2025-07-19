@@ -1,5 +1,7 @@
 # Kart Eşleştirme Oyunu
 
+[Canlı Demo](https://gamecard-sozdar.netlify.app)
+
 Bu proje, React ile geliştirilmiş bir kart eşleştirme (hafıza) oyunudur. Amaç, 5x5'lik bir matris üzerinde rastgele dağılmış kart çiftlerini bulup eşleştirmektir.
 
 ## Özellikler
@@ -44,12 +46,6 @@ Bu proje, React ile geliştirilmiş bir kart eşleştirme (hafıza) oyunudur. Am
   - Farklıysa 1 saniye sonra kapanır ve 10 puan kaybedersiniz.
 - Tüm kartları eşleştirince oyun biter ve puanınız ekranda kalır.
 - "Yeniden Oyna" butonuna basarak oyunu sıfırlayabilirsiniz.
-
-## Ekran Görüntüsü
-
-> Oyun ekranı örneği:
->
-> ![Oyun Ekranı](ekran-goruntusu.png)
 
 ## Katkı
 Katkıda bulunmak isterseniz, lütfen bir pull request gönderin veya issue açın.
